@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Onomica | Разработка сайтов, seo продвижение, настройка рекламы, таргетинг">
+  <!-- fav icon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- bootstarp css file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- aos.css file -->
+  <link rel="stylesheet" href="css/aos.css">
+
+  <!-- fancybox css file -->
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <!-- owl carousel css file -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <!--  toasts file     -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- main css file -->
+  <link rel="stylesheet" href="css/style.css">
+  <title> MediaStar.by | Разработка сайтов, seo продвижение, настройка рекламы, таргетинг </title>
+</head>
+
+<body class="home-1">
+
+  <!-- start preLoader -->
+  <div id="preloader">
+    <svg id="mainSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+      <defs>
+        <radialGradient id="mainGrad" cx="400" cy="300" fx="400" fy="300" r="100" gradientUnits="userSpaceOnUse">
+          <stop offset=".68" stop-color="#21df51" />
+          <stop offset=".72" stop-color="#3add63" />
+          <stop offset=".77" stop-color="#4fdd73" />
+          <stop offset=".82" stop-color="#66db83" />
+          <stop offset=".88" stop-color="#7cd893" />
+          <stop offset=".93" stop-color="#95d8a6" />
+          <stop offset=".99" stop-color="#bde6c7" />
+          <stop offset="1" stop-color="#e3f1e7" />
+        </radialGradient>
+      </defs>
+      <circle id="fillDot" cx="400" cy="300" fill="#21df51" r="100" />
+      <circle id="gradDot" cx="400" cy="300" fill="url(#mainGrad)" r="100" />
+    </svg>
+  </div>
+  <!-- end preLoader -->
+
+  <!-- start scroll to top button -->
+  <div id="progress">
+    <span id="progress-value"><i class="bi bi-arrow-up-short"></i></span>
+  </div>
+  <!-- end scroll to top button -->
+
+
+  <!-- ======= start Header ======= -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand " href="#"><img src="images/logo/logo.png" class="logo" alt="LOGO"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list" id="menu"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav ms-auto" id="navbar">
+            <!--<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item py-2" href="index.html">Главная</a></li>
+                <li><a class="dropdown-item py-2" href="index-2.html">Home 2</a></li>
+                <li><a class="dropdown-item py-2" href="index-3.html">Home 3</a></li>
+                <li><a class="dropdown-item py-2" href="index-rtl.html">Home RTL</a></li>
+              </ul>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Услуги</a>
+            </li>
+            <!--<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item py-2" href="404.html">404 page</a></li>
+                <li><a class="dropdown-item py-2" href="blog.html">blog</a></li>
+                <li><a class="dropdown-item py-2" href="blog-single.html">single blog page</a></li>
+                <li><a class="dropdown-item py-2" href="about.html">about</a></li>
+                <li><a class="dropdown-item py-2" href="services.html">services</a></li>
+                <li><a class="dropdown-item py-2" href="service-single.html">service single</a></li>
+                <li><a class="dropdown-item py-2" href="portfolio.html">portfolio</a></li>
+                <li><a class="dropdown-item py-2" href="portfolio-single.html">portfolio single</a></li>
+                <li><a class="dropdown-item py-2" href="privacy-policy.html">privacy policy</a></li>
+                <li><a class="dropdown-item py-2" href="terms-of-use.html">terms of use</a></li>
+                <li><a class="dropdown-item py-2" href="contact.html">contact</a></li>
+                <li><a class="dropdown-item py-2" href="login.html">login page</a></li>
+                <li><a class="dropdown-item py-2" href="register.html">register</a></li>
+              </ul>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Блог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="d-flex ms-auto">
+            <a class="btn" href="contact.html">Связаться</a>
+            <button id="mode-toggle" class="btn-light-mode switch-button"><i id="mode-icon"
+                class="bi bi-moon-fill"></i></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- ======= end Header ======= -->
+
+  <!-- ============== Start Hero section ========== -->
+  <section class="hero d-flex flex-column justify-content-center align-items-center" id="hero">
+    <div id="particles-js"></div>
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="hero-text col-12 col-lg-5">
+          <div class="row">
+            <div class="hero-icons d-flex gap-lg-3 gap-2 my-lg-3 my-2" data-aos="fade-up" data-aos-delay="100">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+            <div class="col-12 ">
+              <h1 class="title col-12" data-aos="fade-up" data-aos-delay="150">Digital агентство <span
+                  class="unique-text">MediaStar</span> для Вашего бизнеса </h1>
+            </div>
+            <div class="col-lg-10 col-12" data-aos="fade-up" data-aos-delay="200">
+              <!--<p>
+                Мы не просто диджитал агенство, мы разрабатываем стратегии маркетинга и каналы продаж
+              </p>-->
+            </div>
+            <div class="col-10" data-aos="fade-up" data-aos-delay="250">
+              <a href="#" class="btn">Заказать звонок</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-7 mx-md-auto text-center" data-aos="fade-left" data-aos-delay="100">
+          <div class="hero-image">
+            <div class="hero-img" data-tilt>
+              <img class="img-fluid " alt="hero-img"
+                src="images/hero/main.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End Hero section ========== -->
+
+  <!-- ============== Start services section ========== -->
+  <section class="container services py-5" id="services">
+    <div class="heading">
+      <h4 class="pretitle" data-aos="fade-up">
+        Наши услуги
+      </h4>
+      <h2 class="title col-lg-10 col-12" data-aos="fade-up" data-aos-delay="100">
+        Что мы предлагаем?
+      </h2>
+      <p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+        Мы специализируемся на создании продающих корпоративных сайтов и интернет-магазинов с высокой конверсией,
+        SEO продвижении в Google и Яндекс, контекстной рекламе (Adwords, Директ)
+      </p>
+    </div>
+    <div class="row gy-4 gx-4 ">
+      <!-- service number 1 -->
+      <div class="col-md-6 col-12 col-lg-4 mx-auto ">
+        <div class="box box-service box-hover" data-aos="fade-right" data-aos-delay="250">
+          <div class="box-icon my-2">
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <h2 class="title-2 my-2 ">Разработка сайтов</h2>
+          <p>Поможем не только разработать новый сайт, но и выполнить необходимые доработки на Вашем текущем сайте.</p>
+          <a href="service-single.html" class="my-2 learn-more">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6 col-lg-4 mx-auto" data-aos="fade-down" data-aos-delay="200">
+        <!-- service number 2 -->
+        <div class="box box-service box-hover">
+          <div class="box-icon my-2">
+            <i class="bi bi-megaphone-fill"></i>
+          </div>
+          <h2 class="title-2 my-2 ">Контекстная реклама</h2>
+          <p>Вашу рекламу будут вести сертифицированные специалисты Google и Яндекс, с опытом результативной работы.</p>
+          <a href="service-single.html" class="my-2 learn-more">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mx-auto" data-aos="fade-left" data-aos-delay="250">
+        <!-- service number 3 -->
+        <div class="box box-service  box-hover">
+          <div class="box-icon my-2">
+            <i class="bi bi-search"></i>
+          </div>
+          <h2 class="title-2 my-2 ">SEO продвижение сайтов</h2>
+          <p>Большой опыт в интернет-рекламе и знания в юзабилити позволяют нам проектировать по-настоящему продающие сайты с высокой конверсией.</p>
+          <a href="service-single.html" class="my-2 learn-more">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6 col-lg-4 mx-auto" data-aos="fade-right" data-aos-delay="350">
+        <!-- service number 4 -->
+        <div class="box box-service box-hover">
+          <div class="box-icon my-2">
+            <i class="bi bi-bug-fill"></i>
+          </div>
+          <h2 class="title-2 my-2 ">Реклама в социальных сетях</h2>
+          <p>Настраиваем таргетированную рекламу, создаём контент и увеличиваем вовлечённость аудитории,
+            чтобы ваши соцсети приносили реальный результат</p>
+          <a href="service-single.html" class="my-2 learn-more">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6 col-lg-4 mx-auto" data-aos="fade-up" data-aos-delay="300">
+        <!-- service number 5 -->
+        <div class="box  box-service box-hover">
+          <div class="box-icon my-2">
+            <i class="bi bi-palette-fill"></i>
+          </div>
+          <h2 class="title-2 my-2 ">Графический дизайн</h2>
+          <p>Разрабатываем современный и интуитивно понятный дизайн, который делает взаимодействие с сайтом удобным,
+            приятным и эффективным.</p>
+          <a href="service-single.html" class="my-2 learn-more">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6  col-lg-4 mx-auto ">
+        <!-- service number 6 -->
+        <div class="box box-service box-hover" data-aos="fade-left" data-aos-delay="350">
+          <div class="box-icon my-2">
+            <i class="bi bi-android2"></i>
+          </div>
+          <h2 class="title-2 my-2 ">Автоматизация маркетинга</h2>
+          <p>Без автоматизации маркетинга исключен рост бизнеса. Внедряем системы, которые экономят ваше время:
+            автоматические воронки продаж, автоматизация построения отчетов, подключение кол-трекинга и другое, а
+            так же индивидуальная разработка именно под Ваши задачи.</p>
+          <a href="service-single.html" class="my-2 learn-more">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End services section ========== -->
+
+  <!-- ============== Start About section ========== -->
+  <section class="about py-5 mt-5" id="about">
+    <div class="container">
+      <div class="row mt-5 justify-content-center align-items-center">
+        <div class="col-12 col-lg-6">
+          <h4 class="pretitle" data-aos="fade-up" data-aos-delay="200">
+            О нас
+          </h4>
+          <h2 class="title col-12" data-aos="fade-up" data-aos-delay="250">
+            Приводим клиентов из интернета с <span class="unique-text">2010</span>
+          </h2>
+          <p class="col-lg-10 col-12" data-aos="fade-up" data-aos-delay="300">
+            MediaStar работает с 2010 года, объединяя опыт, креативность и современные технологии для реализации
+            проектов любой сложности. Мы не просто создаём сайты и цифровые продукты — мы решаем бизнес-задачи,
+            усиливая бренды в онлайн-пространстве. Нам доверяют компании из разных отраслей, потому что мы
+            ориентированы на результат, говорим с клиентами на одном языке и всегда соблюдаем сроки. Индивидуальный
+            подход, внимание к деталям и постоянное развитие позволяют нам предлагать эффективные решения,
+            которые действительно работают.
+          </p>
+          <a href="#" class="btn" data-aos="fade-up" data-aos-delay="350">Связаться</a>
+        </div>
+        <!-- image -->
+        <div class="col-12 col-lg-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+          <img src="images/about/1.png" alt="about-img">
+        </div>
+      </div>
+      <!--<div class="row mt-5 py-4 justify-content-center align-items-center">
+
+        <div class="col-12 col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+          <img src="images/about/2.png" alt="about-img">
+        </div>
+        <div class="col-12 col-lg-6">
+          <h2 class="title col-12" data-aos="fade-up" data-aos-delay="200">
+            We Deal With The Aspects Of Professional <span class="unique-text">IT Services</span>
+          </h1>
+          <p class="col-lg-10 col-12" data-aos="fade-up" data-aos-delay="250">
+            Although, final stages of the internal network gives a complete experience of
+            The Parameter of Speculative Environment
+          </p>
+          <div class="row gx-2 gy-2 col-12">
+            <div class="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
+              <div class="box box-hover">
+                <i class="bi bi-map-fill"></i>
+                <h5 class="mx-4 title-2 fw-bold">Worldwide Services</h5>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="350">
+              <div class="box box-hover">
+                <i class="bi bi-headset"></i>
+                <h5 class="mx-4 title-2 fw-bold">Support 24h/24</h5>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+              <div class="box box-hover">
+                <i class="bi bi-controller"></i>
+                <h5 class="mx-4 title-2  fw-bold">Easy To Reach</h5>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="450">
+              <div class="box box-hover">
+                <i class="bi bi-star-fill"></i>
+                <h5 class="mx-4 title-2 fw-bold">First On Field</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 py-4 justify-content-center align-items-center">
+        <div class="col-12 col-lg-6">
+          <h2 class="title col-12" data-aos="fade-up" data-aos-delay="200">
+            We Are Here To IT Solution With 20 Years Of <span class="unique-text">Experience</span>
+          </h1>
+          <p class="col-lg-10 col-12" data-aos="fade-up" data-aos-delay="250">
+            Although, final stages of the internal network gives a complete experience of
+            The Parameter of Speculative Environment
+          </p>
+          <ul class="col-12 bars">
+            <li class="py-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="justify-content-between d-flex">
+                <h5>App Development</h5>
+                <h6>70%</h6>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-bar-fill progress-bar-fill-1 "></div>
+              </div>
+            </li>
+            <li class="py-3" data-aos="fade-up" data-aos-delay="350">
+              <div class="justify-content-between d-flex">
+                <h5>UI/UX Design</h5>
+                <h6>20%</h6>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-bar-fill progress-bar-fill-2 "></div>
+              </div>
+            </li>
+            <li class="py-3" data-aos="fade-up" data-aos-delay="400">
+              <div class="justify-content-between d-flex">
+                <h5>Web Development</h5>
+                <h6>55%</h6>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-bar-fill progress-bar-fill-3 "></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+          <img src="images/about/3.png" alt="about-img">
+        </div>
+      </div>-->
+
+    </div>
+  </section>
+  <!-- ============== End About section ========== -->
+
+  <!-- ============== Start numbers section ========== -->
+  <section class="counter-up my-5" data-aos="fade-up" data-aos-delay="100">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3  col-12 mt-5 mt-lg-0" data-aos="fade-right" data-aos-delay="200">
+          <i class="ri-discuss-line icon"></i>
+          <div class="counter">+300</div>
+          <div class="title-2">Довольных клиентов</div>
+        </div>
+        <div class="col-lg-3 col-12 mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="250">
+          <i class="ri-discuss-line icon"></i>
+          <div class="counter">+15</div>
+          <div class="title-2">лет опыта</div>
+        </div>
+        <div class="col-lg-3 col-12 mt-5 mt-lg-0" data-aos="fade-down" data-aos-delay="250">
+          <i class="ri-discuss-line icon"></i>
+          <div class="counter">+784</div>
+          <div class="title-2">Успешных проектов</div>
+        </div>
+        <div class="col-lg-3 col-12 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+          <i class="ri-discuss-line icon"></i>
+          <div class="counter">+30</div>
+          <div class="title-2">Различных ниш</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End numbers section ========== -->
+
+  <!-- ============== Start Why us section ========== -->
+  <section class="container why-choose-us py-5">
+    <div class="heading">
+      <h4 class="pretitle" data-aos="fade-up">
+        Порядок работы
+      </h4>
+      <h2 class="title col-12" data-aos="fade-up" data-aos-delay="100">
+        Как мы работаем
+      </h2>
+      <!--<p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+        As a matter of fact the unification of the coherent software provides a strict control over
+        The Accomplishment of Intended Estimation
+      </p>-->
+    </div>
+    <div class="row  gy-4 gx-4 martop">
+      <div class="col-md-6 col-lg-4 mx-auto" data-aos="fade-right" data-aos-delay="250">
+        <div class="box">
+          <h2 class="my-4">01.</h2>
+          <div class="title-2 my-2 ">Изучение ТЗ</div>
+          <p>Перед стартом работ мы в деталях рассматриваем техническое задание – ваши требования, цели, ограничения
+            проекта. При необходимости вносим дополнительные опции или дорабатываем ваше ТЗ.</p>
+        </div>
+      </div>
+      <div class="col-md-6  col-lg-4 mx-auto" data-aos="fade-up" data-aos-delay="200">
+        <div class="box">
+          <h2 class="my-4">02.</h2>
+          <div class="title-2 my-2 ">Заключение договора</div>
+          <p>Работаем официально и с гарантиями. Поэтапную отчетность, документацию о проекте предоставим по вашему
+            запросу. Поддерживаем вас на всех стадиях работ.</p>
+        </div>
+      </div>
+      <div class="col-md-6  col-lg-4 mx-auto" data-aos="fade-left" data-aos-delay="250">
+        <div class="box">
+          <h2 class="my-4">03.</h2>
+          <div class="title-2 my-2 ">Изучение продукта, конкурентов и рынка</div>
+          <p>Важно не пропускать этот этап, чтобы лучше понять деятельность вашей компании, точно определить портреты
+            потенциальных клиентов, выделить фичи, а также продумать стратегию развития после релиза.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row  gy-4 gx-4 martop">
+      <div class="col-md-6 col-lg-4 mx-auto" data-aos="fade-right" data-aos-delay="250">
+        <div class="box">
+          <h2 class="my-4">04.</h2>
+          <div class="title-2 my-2 ">Создание структуры и копирайтинг</div>
+          <p>Делаем продукт логичным, полезным, интересным. Доносим ценность бренда через тексты. Эта стадия может
+            включать SEO, чтобы выйти в топ выдачи поисковых систем, обогнав конкурентов.</p>
+        </div>
+      </div>
+      <div class="col-md-6  col-lg-4 mx-auto" data-aos="fade-up" data-aos-delay="200">
+        <div class="box">
+          <h2 class="my-4">05.</h2>
+          <div class="title-2 my-2 ">UX/UI дизайн и программирование</div>
+          <p>Продумываем навигацию по прототипу, проектирование удобного и современного дизайна. Пишем чистый код и
+            контролируем качество, настраиваем админ-панель, готовим обучение и инструкцию по управлению корпоративным
+            сайтом, блогом, интернет-магазином, маркетплейсом, приложением.</p>
+        </div>
+      </div>
+      <div class="col-md-6  col-lg-4 mx-auto" data-aos="fade-left" data-aos-delay="250">
+        <div class="box">
+          <h2 class="my-4">06.</h2>
+          <div class="title-2 my-2 ">Поддержка, развитие и продвижение</div>
+          <p>Повышаем трафик из Яндекс и Google в Москве и других регионах, чтобы вы получали больше заявок и продаж.
+            Заботимся о репутации бренда в сети. Вносим корректировки на основе аналитики и помогаем улучшить метрики.
+            Работаем над совершенствованием и масштабированием проекта, воплощаем новые идеи.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End Why us section ========== -->
+
+  <!-- ============== Start portfolio section ========== -->
+
+  <!--<section class="container portfolio py-5" id="portfolio">
+    <div class="heading">
+      <h4 class="pretitle" data-aos="fade-up">
+        Портфолио
+      </h4>
+      <h2 class="title col-12" data-aos="fade-up" data-aos-delay="100">
+        Наше портфолио
+      </h2>
+    </div>
+    <ul class="filters d-flex my-4" data-aos="fade-up" data-aos-delay="150">
+      <li class="nav-item portfolio-btn active">
+        <a class="nav-link" data-filter="*">All</a>
+      </li>
+      <li class="nav-item portfolio-btn mx-lg-3 mx-1">
+        <a class="nav-link" data-filter=".mobile">Mobile</a>
+      </li>
+      <li class="nav-item portfolio-btn mx-lg-3 mx-1">
+        <a class="nav-link" data-filter=".data">Data</a>
+      </li>
+      <li class="nav-item portfolio-btn mx-lg-3 mx-1 ">
+        <a class="nav-link" data-filter=".web">Web</a>
+      </li>
+    </ul>
+    <div class="row portfolio-row gy-4 gx-4" data-aos="fade-up" data-aos-delay="150">
+      <div class="col-md-6 col-lg-4 mx-auto mobile ">
+        <a href="images/portfolio/1.jpg" class="gallery-item" data-fancybox="gallery" data-caption="MOBILE">
+          <div class="portfolio-item">
+            <img src="images/portfolio/1.jpg" class="gallery-item" alt="portfolio-img">
+            <div class="img-overlay">
+              <div class="content">
+                <h3>tansiApp</h3>
+                <h6>mobile application</h6>
+                <div class="d-flex tags my-2">
+                  <span>#react</span>
+                  <span>#HTML</span>
+                  <span>#next_js</span>
+                  <span>#node</span>
+                </div>
+                <h4><a class="unique-text" href="portfolio-single.html"><i class="bi bi-eye-fill mx-2"></i>view
+                    project</a></h4>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class=" col-md-6  col-lg-4 mx-auto mobile">
+        <a href="images/portfolio/2.jpg" class="gallery-item" data-fancybox="gallery"
+          data-caption="tansiApp | mobile application">
+          <div class="portfolio-item">
+            <img src="images/portfolio/2.jpg" class="gallery-item" alt="portfolio-img">
+            <div class="img-overlay">
+              <div class="content">
+                <h3>tansiApp</h3>
+                <h6>mobile application</h6>
+                <div class="d-flex tags col-10 my-2">
+                  <span>#js</span>
+                  <span>#HTML</span>
+                  <span>#next_js</span>
+                  <span>#node</span>
+                </div>
+                <h4><a class="unique-text" href="portfolio-single.html"><i class="bi bi-eye-fill mx-2"></i>view
+                    project</a></h4>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class=" col-md-6  col-lg-4 mx-auto web">
+        <a href="images/portfolio/3.jpg" class="gallery-item" data-fancybox="gallery"
+          data-caption="imolas | mobile application">
+          <div class="portfolio-item">
+            <img src="images/portfolio/3.jpg" alt="portfolio-img">
+            <div class="img-overlay">
+              <div class="content">
+                <h3>imolas</h3>
+                <h6>mobile application</h6>
+                <div class="d-flex tags my-2">
+                  <span>#redux</span>
+                  <span>#HTML</span>
+                  <span>#next_js</span>
+                  <span>#gsap</span>
+                </div>
+                <h4><a class="unique-text" href="portfolio-single.html"><i class="bi bi-eye-fill mx-2"></i>view
+                    project</a></h4>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6  col-lg-4 mx-auto data web ">
+        <a href="images/portfolio/4.png" class="gallery-item" data-fancybox="gallery"
+          data-caption="abertonApp | mobile application">
+          <div class="portfolio-item">
+            <img src="images/portfolio/4.png" alt="portfolio-img">
+            <div class="img-overlay">
+              <div class="content">
+                <h3>abertonApp</h3>
+                <h6>mobile application</h6>
+                <div class="d-flex tags my-2">
+                  <span>#react</span>
+                  <span>#HTML</span>
+                  <span>#next_js</span>
+                  <span>#node</span>
+                </div>
+                <h4><a class="unique-text" href="portfolio-single.html"><i class="bi bi-eye-fill mx-2"></i>view
+                    project</a></h4>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="  col-md-6  col-lg-4 mx-auto hosting web  ">
+        <a href="images/portfolio/5.jpeg" class="gallery-item" data-fancybox="gallery"
+          data-caption="taknaruytApp | web application">
+          <div class="portfolio-item">
+            <img src="images/portfolio/5.jpeg" alt="portfolio-img">
+            <div class="img-overlay">
+              <div class="content">
+                <h3>taknaruytApp</h3>
+                <h6>web application</h6>
+                <div class="d-flex tags my-2">
+                  <span>#react</span>
+                  <span>#PHP</span>
+                  <span>#next_js</span>
+                  <span>#node</span>
+                </div>
+                <h4><a class="unique-text" href="portfolio-single.html"><i class="bi bi-eye-fill mx-2"></i>view
+                    project</a></h4>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="  col-md-6  col-lg-4 mx-auto data">
+        <a href="images/portfolio/6.jpg" class="gallery-item" data-fancybox="gallery"
+          data-caption="bodihApp | web application">
+          <div class="portfolio-item">
+            <img src="images/portfolio/6.jpg" alt="portfolio-img">
+            <div class="img-overlay">
+              <div class="content">
+                <h3>bodihApp</h3>
+                <h6>web application</h6>
+                <div class="d-flex tags my-2">
+                  <span>#react</span>
+                  <span>#HTML</span>
+                  <span>#ruby</span>
+                  <span>#node</span>
+                </div>
+                <h4><a class="unique-text" href="portfolio-single.html"><i class="bi bi-eye-fill mx-2"></i>view
+                    project</a></h4>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>-->
+  <!-- ============== End portfolio section ========== -->
+
+  <!-- ============== Start clients section ========== -->
+
+  <div class="clients py-lg-5 py-2" data-aos="fade-up" data-aos-delay="100">
+    <div class="container">
+      <div class="row">
+        <div class="owl-carousel client owl-theme">
+          <div class="item">
+            <img src="images/clients-logos/1-white.jpg" alt="client-logo">
+          </div>
+          <div class="item">
+            <img src="images/clients-logos/2-white.png" alt="client-logo">
+          </div>
+          <div class="item">
+            <img src="images/clients-logos/3-white.jpg" alt="client-logo">
+          </div>
+          <div class="item">
+            <img src="images/clients-logos/4-white.jpg" alt="client-logo">
+          </div>
+          <div class="item">
+            <img src="images/clients-logos/5-white.jpg" alt="client-logo">
+          </div>
+          <div class="item">
+            <img src="images/clients-logos/6-white.png" alt="client-logo">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============== End clients section ========== -->
+
+  <!-- ============== Start Pricing section ========== -->
+  <!--<section class="container pricing py-5" id="pricing">
+    <div class="heading">
+      <h4 class="pretitle" data-aos="fade-up">
+        pricing
+      </h4>
+      <h1 class="title col-12" data-aos="fade-up" data-aos-delay="100">
+        our pricing
+      </h1>
+      <p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+        As a matter of fact the unification of the coherent software provides a strict control over
+        The Accomplishment of Intended Estimation
+      </p>
+      <div class="row  gy-4 gx-4 ">
+        <div class="col-md-6 col-lg-3 mx-auto" data-aos="fade-up" data-aos-delay="200">
+          <div class="box">
+            <i class="bi bi-cart4 my-4"></i>
+            <h1 class="my-2 title-2 ">free</h1>
+            <h2 class="price">00$</h2>
+            <h3>per project</h3>
+            <ul class="my-4">
+              <li class="my-1"><i class="bi bi-check2-circle"></i>single user</li>
+              <li class="my-1"><i class="bi bi-check2-circle"></i>no updates</li>
+              <li class="my-1"><i class="bi bi-check2-circle"></i>limited acces library</li>
+              <li class="my-1"><i class="bi bi-check2-circle"></i>lorem ipsum</li>
+              <li class="my-1"><i class="bi bi-check2-circle"></i>dolor sit amet</li>
+            </ul>
+            <a href="#" class="btn my-4">start now</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mx-auto" data-aos="fade-up" data-aos-delay="250">
+          <div class="box">
+            <i class="bi bi-coin my-4"></i>
+            <h1 class="my-2 title-2 ">basic</h1>
+            <h2 class="price">19$</h2>
+            <h3>per project</h3>
+            <ul class="my-4">
+              <li class="my-1"><i class="bi bi-check2-circle"></i>single user</li>
+              <li class="my-1"><i class="bi bi-check2-circle"></i>no updates</li>
+              <li class="my-1"><i class="bi bi-check2-circle"></i>limited acces library</li>
+              <li class="my-1"><i class="bi bi-check2-circle"></i>lorem ipsum</li>
+              <li class="my-1"><i class="bi bi-x-circle"></i>dolor sit amet</li>
+            </ul>
+            <a href="#" class="btn my-4">start now</a>
+          </div>
+        </div>
+        <div class="  col-md-6  col-lg-3 mx-auto" data-aos="fade-up" data-aos-delay="300">
+          <div class="box" id="table3">
+            <i class="bi bi-cash my-4"></i>
+            <h1 class="my-2 title-2 ">Standerd</h1>
+            <h2 class="price">39$</h2>
+            <h3>per project</h3>
+            <ul class="my-4">
+              <li class="my-1"><i class="bi bi-check2-circle"></i>single user</li>
+              <li class="my-1"><i class="bi bi-check2-circle"></i>no updates</li>
+              <li class="my-1"><i class="bi bi-check2-circle"></i>limited acces library</li>
+              <li class="my-1"><i class="bi bi-x-circle"></i>lorem ipsum</li>
+              <li class="my-1"><i class="bi bi-x-circle"></i>dolor sit amet</li>
+            </ul>
+            <a href="#" class="btn my-4">start now</a>
+          </div>
+        </div>
+        <div class="  col-md-6  col-lg-3 mx-auto" data-aos="fade-up" data-aos-delay="350">
+          <div class="box">
+            <i class=" bi bi-cash-coin my-4"></i>
+            <h1 class="my-2 title-2 ">pro</h1>
+            <h2 class="price">99$</h2>
+            <h3>per project</h3>
+            <ul class="my-4">
+              <li class="my-1"><i class="bi bi-check2-circle"></i>single user</li>
+              <li class="my-1"><i class="bi bi-check2-circle"></i>no updates</li>
+              <li class="my-1"><i class="bi bi-x-circle"></i>limited acces library</li>
+              <li class="my-1"><i class="bi bi-x-circle"></i>lorem ipsum</li>
+              <li class="my-1"><i class="bi bi-x-circle"></i>dolor sit amet</li>
+            </ul>
+            <a href="#" class="btn my-4">start now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>-->
+
+  <section class="container testimonials py-5">
+    <div class="heading">
+      <h4 class="pretitle" data-aos="fade-up">
+        Отзывы
+      </h4>
+      <h2 class="title col-12" data-aos="fade-up" data-aos-delay="100">
+        Что о нас говорят?
+      </h2>
+      <!--<p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+        As a matter of fact the unification of the coherent software provides a strict control over
+        The Accomplishment of Intended Estimation
+      </p>-->
+    </div>
+    <div class="row" data-aos="fade-up" data-aos-delay="200">
+      <div class="owl-carousel testimonial owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="d-flex justify-content-center align-items-center m-2">
+              <div class="col-2 ms-4 ">
+                <img class="rounded-circle" src="images/testimonials/testimonials-1.jpg" alt="testimonial-img">
+              </div>
+              <div class="col-10 d-flex flex-column mx-4">
+                <h3 class="title-2">
+                  Алексей Сорокин
+                </h3>
+                <div class=" justify-content-between">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>Обратился в студию по рекомендации — и не пожалел. Команда быстро поняла суть моего бизнеса, предложила
+              нестандартные решения и создала сайт, который стал настоящим инструментом продаж. Понравилось, что не
+              пришлось объяснять по сто раз — с полуслова понимали, что нужно.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="d-flex justify-content-center align-items-center m-2">
+              <div class="col-2 ms-4">
+                <img class="rounded-circle" src="images/testimonials/testimonials-2.jpg" alt="testimonial-img">
+              </div>
+              <div class="col-10 d-flex flex-column mx-4">
+                <h3 class="title-2">
+                  Марина Левина, студия йоги:
+                </h3>
+                <div class=" justify-content-between">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>Сотрудничаем с ребятами уже третий год: сначала они сделали нам сайт, потом взяли на себя соцсети и
+              рекламу. Клиентов стало ощутимо больше, а мы, наконец, занялись развитием студии, а не бесконечными
+              постами и баннерами. Чётко, красиво, по делу.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="d-flex justify-content-center align-items-center m-2">
+              <div class="col-2 ms-4">
+                <img class="rounded-circle" src="images/testimonials/testimonials-5.jpg" alt="testimonial-img">
+              </div>
+              <div class="col-10 d-flex flex-column mx-4">
+                <h3 class="title-2">
+                  Игорь Данилов, владелец компании по установке окон:
+                </h3>
+                <div class="justify-content-between">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>Нам важно было не просто "что-то в интернете", а нормальный рабочий сайт, который привлекает клиентов.
+              Получили именно это. Понравился подход: сначала анализ, потом дизайн и только потом запуск. Всё продумано
+              до мелочей. Рекомендую!</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="d-flex justify-content-center align-items-center m-2">
+              <div class="col-2 ms-4">
+                <img class="rounded-circle" src="images/testimonials/testimonials-3.jpg" alt="testimonial-img">
+              </div>
+              <div class="col-10 d-flex flex-column mx-4">
+                <h3 class="title-2">
+                  Тимур Ахметов, владелец автосервиса:
+                </h3>
+                <div class="justify-content-between">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+            <p>После запуска сайта и автоматизации заявок поток клиентов вырос почти вдвое. Раньше теряли заказы,
+              теперь всё фиксируется, ничего не забывается. Честно, не ожидал, что IT так может упростить работу.
+              Огромное спасибо за практичный и надёжный продукт.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="d-flex justify-content-center align-items-center m-2">
+              <div class="col-2 ms-4">
+                <img class="rounded-circle" src="images/testimonials/testimonials-4.jpg" alt="testimonial-img">
+              </div>
+              <div class="col-10 d-flex flex-column mx-4">
+                <h3 class="title-2">
+                  Надежда Самойлова, управляющая сетью салонов красоты:
+                </h3>
+                <div class=" justify-content-between">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+            <p>В студии нам сделали не только сайт, но и провели мощную рекламную кампанию в Instagram и Facebook.
+              Клиенты начали приходить именно с рекламы, причём сразу по нужным услугам. Это очень чувствуется в
+              записях и загрузке мастеров.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="d-flex justify-content-center align-items-center m-2">
+              <div class="col-2 ms-4">
+                <img class="rounded-circle" src="images/testimonials/testimonials-5.jpg" alt="testimonial-img">
+              </div>
+              <div class="col-10 d-flex flex-column mx-4">
+                <h3 class="title-2">
+                  Ольга Чернышева, владелица школы иностранных языков:
+                </h3>
+                <div class="justify-content-between">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-center">После редизайна сайта и автоматизации записей мы наконец-то перестали терять заявки.
+              Стало гораздо проще управлять расписанием, а ученики сами выбирают удобное время. Спасибо за грамотный
+              подход и внимательность к деталям!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End testimonials section ========== -->
+
+  <!--
+  <div class="container team">
+    <div class="heading">
+      <h4 class="pretitle" data-aos="fade-up">
+        team
+      </h4>
+      <h1 class="title col-12" data-aos="fade-up" data-aos-delay="100">
+        our team
+      </h1>
+      <p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+        As a matter of fact the unification of the coherent software provides a strict control over
+        The Accomplishment of Intended Estimation
+      </p>
+    </div>
+    <div class="row gy-4 gx-4 ">
+      <div class="col-lg-3 col-md-6 col-12 mx-auto" data-aos="fade-right" data-aos-delay="200">
+        <div class="box">
+          <div class="team-img">
+            <img src="images/team/team-1.jpg" alt="team-img">
+          </div>
+          <h3 class="my-2 title-2 ">bodih dgmas</h3>
+          <h6>front-end developer</h6>
+          <div class="social-icons d-flex">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg-3 col-md-6 col-12 mx-auto" data-aos="fade-up" data-aos-delay="250">
+        <div class="box">
+          <div class="team-img">
+            <img src="images/team/team-2.jpg" alt="team-img">
+          </div>
+          <h3 class="my-2 title-2 ">ahmad errami</h3>
+          <h6>back-end developer</h6>
+          <div class="social-icons d-flex">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg-3 col-md-6 col-12 mx-auto" data-aos="fade-down" data-aos-delay="300">
+        <div class="box">
+          <div class="team-img">
+            <img src="images/team/team-3.jpg" alt="team-img">
+          </div>
+          <h3 class="my-2 title-2 ">john smith</h3>
+          <h6>web designer</h6>
+          <div class="social-icons d-flex">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg-3 col-md-6 col-12 mx-auto" data-aos="fade-left" data-aos-delay="200">
+        <div class="box">
+          <div class="team-img">
+            <img src="images/team/team-4.jpg" alt="team-img">
+          </div>
+          <h3 class="my-2 title-2 ">satoshi nakamoto</h3>
+          <h6>CEO founder</h6>
+          <div class="social-icons d-flex">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- ============== end team section ========== -->
+
+  <!-- ============== Start Blog section ========== -->
+  <!--<section class="container blog py-5" id="blog">
+    <div class="heading">
+      <h4 class="pretitle" data-aos="fade-up">
+        blog
+      </h4>
+      <h1 class="title col-12" data-aos="fade-up" data-aos-delay="100">
+        our blog
+      </h1>
+      <p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+        As a matter of fact the unification of the coherent software provides a strict control over
+        The Accomplishment of Intended Estimation
+      </p>
+    </div>
+
+    <div class="row  gy-4 gx-4 ">
+      <div class="col-lg-4 col-md-6 col-12 mx-auto" data-aos="fade-right" data-aos-delay="250">
+        <div class="box card border-0">
+          <div class="col-12">
+            <img src="images/blog/post-images/1.jpg" alt="blog-img">
+          </div>
+          <div class="card-body">
+            <div class="info d-flex justify-content-between">
+              <h3><i class="bi bi-person-fill title-2 mx-2"></i>admin</h3>
+              <h3> <i class="bi bi-calendar-date-fill title-2 mx-2"></i>27/05/2023</h3>
+              <h3> <i class="bi bi-tag-fill title-2 mx-2"></i>web dev</h3>
+            </div>
+            <h1 class="title-2">
+              how to learn javascript easily with this method
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Explicabo earum id assumenda ad neque recusandae, quasi deleniti
+              voluptatum eos vel quas molestias?</p>
+            <a class="learn-more" href="blog-single.html">
+              read more <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col-lg-4 col-md-6 col-12 mx-auto" data-aos="fade-up" data-aos-delay="200">
+        <div class="box card border-0">
+          <div class="col-12">
+            <img src="images/blog/post-images/2.jpg" alt="blog-img">
+          </div>
+          <div class="card-body">
+            <div class="info d-flex justify-content-between">
+              <h3><i class="bi bi-person-fill title-2 mx-2"></i>admin</h3>
+              <h3> <i class="bi bi-calendar-date-fill title-2 mx-2"></i>27/03/2023</h3>
+              <h3> <i class="bi bi-tag-fill title-2 mx-2"></i>web dev</h3>
+            </div>
+            <h1 class="title-2">
+              why you should learn this new javascript framework
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Explicabo earum id assumenda ad neque recusandae, quasi deleniti
+              voluptatum eos vel quas molestias?</p>
+            <a class="learn-more" href="blog-single.html">
+              read more <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg-4 col-md-6 col-12 mx-auto" data-aos="fade-left" data-aos-delay="250">
+        <div class="box card border-0">
+          <div class="col-12">
+            <img src="images/blog/post-images/3.jpg" alt="blog-img">
+          </div>
+          <div class="card-body">
+            <div class="info d-flex justify-content-between">
+              <h3><i class="bi bi-person-fill title-2 mx-2"></i>admin</h3>
+              <h3> <i class="bi bi-calendar-date-fill title-2 mx-2"></i>20/04/2023</h3>
+              <h3> <i class="bi bi-tag-fill title-2 mx-2"></i>marketing</h3>
+            </div>
+            <h1 class="title-2">
+              What is digital marketing and why is important ?
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Explicabo earum id assumenda ad neque recusandae, quasi deleniti
+              voluptatum eos vel quas molestias?</p>
+            <a class="learn-more" href="blog-single.html">
+              read more <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>-->
+  <!-- ============== End Blog section ========== -->
+
+  <!-- ============== Start FAQ section ========== -->
+  <!--<section class="container faq py-5">
+    <div class="heading">
+      <h4 class="pretitle" data-aos="fade-up">
+        FAQ
+      </h4>
+      <h1 class="title col-12" data-aos="fade-up" data-aos-delay="100">
+        Frequently Asked Questions
+      </h1>
+      <p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+        As a matter of fact the unification of the coherent software provides a strict control over
+        The Accomplishment of Intended Estimation
+      </p>
+    </div>
+    <div class="row justify-content-center align-items-center  gx-4 ">
+      <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-delay="200" data-tilt>
+        <img src="images/faq/customer.png" alt="faq">
+      </div>
+      <div class="col-12 col-lg-6  ">
+        <div class="col-12 my-4" data-aos="fade-up" data-aos-delay="250">
+          <div class="box">
+            <div class="d-flex w-100 justify-content-between">
+              <a data-bs-toggle="collapse" class="w-100" onclick="rotateIcon('icon1')" href="#answer1" role="button"
+                aria-expanded="false">
+                <h4 class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  Do you offer both on-site and remote IT support?
+                  <i class="bi bi-chevron-compact-down mx-4 rotate-icon" id="icon1"></i>
+                </h4>
+              </a>
+            </div>
+            <p id="answer1" class="collapse">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ullam earum itaque, quas labore illo
+              eligendi iure asperiores, modi veniam molestiae vero quasi. Ex, alias modi voluptates aspernatur
+              consequuntur facere?
+            </p>
+          </div>
+        </div>
+        <div class="col-12 my-4 " data-aos="fade-up" data-aos-delay="300">
+          <div class="box">
+            <div class="d-flex w-100 justify-content-between">
+              <a data-bs-toggle="collapse" class="w-100" onclick="rotateIcon('icon2')" href="#answer2" role="button"
+                aria-expanded="false">
+                <h4 class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  what is techida ?
+                  <i class="bi bi-chevron-compact-down mx-4 rotate-icon" id="icon2"></i>
+                </h4>
+              </a>
+            </div>
+            <p id="answer2" class="collapse">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ullam earum itaque, quas labore illo
+              eligendi iure asperiores, modi veniam molestiae vero quasi. Ex, alias modi voluptates aspernatur
+              consequuntur facere?
+            </p>
+          </div>
+        </div>
+        <div class="col-12 my-4 " data-aos="fade-up" data-aos-delay="350">
+          <div class="box">
+            <div class="d-flex w-100 justify-content-between">
+              <a data-bs-toggle="collapse" class="w-100" onclick="rotateIcon('icon3')" href="#answer3" role="button"
+                aria-expanded="false">
+                <h4 class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  Is There Any Updates In The Future ?
+                  <i class="bi bi-chevron-compact-down mx-4 rotate-icon" id="icon3"></i>
+                </h4>
+              </a>
+            </div>
+            <p id="answer3" class="collapse">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ullam earum itaque, quas labore illo
+              eligendi iure asperiores, modi veniam molestiae vero quasi. Ex, alias modi voluptates aspernatur
+              consequuntur facere?
+            </p>
+          </div>
+        </div>
+        <div class="col-12 my-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="box">
+            <div class="d-flex w-100 justify-content-between">
+              <a data-bs-toggle="collapse" class="w-100" onclick="rotateIcon('icon4')" href="#answer4" role="button"
+                aria-expanded="false">
+                <h4 class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  How Much For The Service?
+                  <i class="bi bi-chevron-compact-down mx-4 rotate-icon" id="icon4"></i>
+                </h4>
+              </a>
+            </div>
+            <p id="answer4" class="collapse">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ullam earum itaque, quas labore illo
+              eligendi iure asperiores, modi veniam molestiae vero quasi. Ex, alias modi voluptates aspernatur
+              consequuntur facere?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>-->
+  <!-- ============== End FAQ section ========== -->
+
+  <!-- ============== Start contact section ========== -->
+  <section class="container contact py-5" id="contact">
+    <div class="heading ">
+      <h4 class="pretitle" data-aos="fade-up">
+        Контакты
+      </h4>
+      <h2 class="title col-12" data-aos="fade-up" data-aos-delay="100">
+        Как с нами связаться?
+      </h2>
+      <!--<p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+        As a matter of fact the unification of the coherent software provides a strict control over
+        The Accomplishment of Intended Estimation
+      </p>-->
+    </div>
+    <div class="row  gx-4 ">
+      <div class="col-12 col-lg-6 gy-3">
+        <h2 class="title-2 " data-aos="fade-right" data-aos-delay="200">
+          Контактная информация:
+        </h2>
+        <div class="info d-flex my-4 " data-aos="fade-right" data-aos-delay="250">
+          <h5><i class="bi bi-envelope-fill mx-4"></i>info@mediastar.by</h5>
+        </div>
+        <div class="info d-flex my-4 " data-aos="fade-up" data-aos-delay="300">
+          <h5><i class="bi bi-phone-fill mx-4"></i>tg: @andrei_sad</h5>
+        </div>
+        <div class="info d-flex my-4 " data-aos="fade-up" data-aos-delay="350">
+          <h5><i class="bi bi-geo-alt-fill mx-4"></i>Минск, Беларусь</h5>
+        </div>
+        <!--<div class="info d-flex my-4 " data-aos="fade-up" data-aos-delay="400">
+          <h5><i class="bi bi-instagram mx-4"></i>techida-company</h5>
+        </div>-->
+      </div>
+      <div class="col-12 col-lg-6">
+        <!--Form To have user messages-->
+        <form class="main-form" id="contact-us-form" action="contact.php" method="post">
+          <div class="col-12">
+            <div class="row g-3 mb-1">
+              <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-delay="200">
+                <input placeholder="Ваше имя" type="text" id="name" name="name" class="text-input">
+              </div>
+              <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-delay="200">
+                <input placeholder="Ваша компания" type="text" id="subject" name="subject" class="text-input">
+              </div>
+            </div>
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="250">
+            <input placeholder="email" type="email" id="email" name="email" class="text-input my-2">
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="300">
+            <textarea placeholder="Введите сообщение" class="text-input my-2" rows="7" cols="30" id="message"
+              name="message"></textarea>
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="350">
+            <button type="submit" value="Submit" class="btn">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--<iframe class="contact-map" data-aos="fade-up" data-aos-delay="450"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9050207912896!2d-0.14675028449633118!3d51.514958479636384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad554c335c1%3A0xda2164b934c67c1a!2sOxford+St%2C+London%2C+UK!5e0!3m2!1sen!2sro!4v1485889312335"
+      allowfullscreen=""></iframe>-->
+  </section>
+  <!-- ============== end contact section ========== -->
+
+
+
+  <!-- ============== Start Footer section ========== -->
+  <div class="footer">
+    <div class="container">
+      <div class="row justify-content-center align-items-center g-4">
+        <div class="col-12 col-lg-3 col-md-6 mx-auto my-4">
+          <div class="box">
+            <a href="#" class="logo "><img class="my-2" src="images/logo/logo.png" alt=""></a>
+            <p>Лучшие стратегии и тактики интернет-маркетинга на страже вашего бизнеса</p>
+            <h4 class="my-2">
+              Подпишись
+            </h4>
+            <div class="social d-flex gap-2">
+              <div class="icon"><i class="bi bi-facebook"></i></div>
+              <div class="icon"><i class="bi bi-instagram"></i></div>
+              <div class="icon"><i class="bi bi-twitter-x "></i></div>
+              <div class="icon"><i class="bi bi-youtube"></i></div>
+            </div>
+          </div>
+        </div>
+        <!--<div class="col-12 col-lg-3 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
+          <h4>site map</h4>
+          <ul class="d-flex flex-column gap-3">
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="index.html">home</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="about.html">about</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="services.html">services</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="contact.html">contact</a></li>
+          </ul>
+        </div>-->
+        <div class="col-12 col-lg-3 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
+          <h4>Подпишись</h4>
+          <ul class="d-flex flex-column gap-3">
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">facebook</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">instagram</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">linkedin</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">x</a></li>
+          </ul>
+        </div>
+        <!--<div class="col-12 col-lg-3 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
+          <h4>our services</h4>
+          <ul class="d-flex flex-column gap-3">
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">digital
+                marketing</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">web
+                developement</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">cyber
+                security</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">graphic
+                design</a></li>
+          </ul>
+        </div>-->
+      </div>
+    </div>
+    <hr>
+    <div class="copyrights ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex justify-content-start">
+            <p class="creadits">
+              &copy; 2025
+              <a href="#">MediaStar.by</a>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-end">
+            <div>
+              <a href="terms-of-use.html">Условия пользования </a>
+              | <a href="privacy-policy.html">Политика конфиденциальности</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============== end Footer section ========== -->
+
+  <!--  JQuery file     -->
+  <script src="js/jquery-3.6.1.min.js"></script>
+
+  <!--  Tilt.js file     -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
+  <!-- bootstrap min js -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--  toasts file     -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+  <!--  owl carousel    -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- aos file    -->
+  <script src="js/aos.js"></script>
+
+  <!-- gsap file    -->
+  <script src="js/gsap.min.js"></script>
+
+  <!--  counter     -->
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/jquery.waypoints.js"></script>
+
+  <!-- particles js file  -->
+  <script src="js/particles.min.js"></script>
+
+  <!-- jquery isotope file -->
+  <script src="js/isotope.min.js"></script>
+
+  <!-- jquery fancybox file -->
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <!--  main js file  -->
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+# Enable URL rewriting
+RewriteEngine On
+RewriteBase /
+
+# 1) Redirect requests for *.html to clean URLs without the extension
+#    Example: /about.html -> https://site.ru/about
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
+RewriteRule ^([^.]+)\.html$ https://site.ru/$1 [R=301,L]
+
+# 2) Internally rewrite clean URLs to their .html files
+#    Example: /about -> /about.html
+RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ $1.html [L]

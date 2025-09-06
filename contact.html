@@ -330,6 +330,30 @@
   </div>
   <!-- ============== end Footer section ========== -->
 
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      async function include(selector, url) {
+        try {
+          const res = await fetch(url, { cache: 'no-cache' });
+          if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+          const html = await res.text();
+          const el = document.querySelector(selector);
+          if (el) el.innerHTML = html;
+        } catch (err) {
+          console.error('Include failed:', url, err);
+        }
+      }
+
+      // корень сайта (на случай, если страница лежит в /pages/…)
+      const ROOT =
+              document.querySelector('meta[name="site-root"]')?.content || '/';
+
+      // ВАЖНО: пути абсолютные от корня, чтобы работало в подпапках
+      include('#header', ROOT + 'partials/header.html?v=' + Date.now());
+
+    });
+  </script>
+
   <!--  JQuery file     -->
   <script src="js/jquery-3.6.1.min.js"></script>
 

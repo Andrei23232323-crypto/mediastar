@@ -235,8 +235,14 @@ a:focus {
   color: var(--primaryColor);
 }
 
+/*my code*/
 .btn-sec:hover {
   color: var(--bodyColor);
+}
+
+/*my code*/
+.nav__phone {
+  color: #5e5e5e;
 }
 
 .btn::before,

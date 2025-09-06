@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="techida | IT Solutions & Business Services HTML landing page template ">
+  <meta name="description" content="Мы разрабатываем современные сайты и помогаем бизнесу расти с помощью SEO,
+  контекстной и таргетированной рекламы. Узнайте больше о нашей команде.">
   <!-- fav icon -->
   <link rel="icon" href="images/favicon.ico">
 
@@ -37,7 +38,7 @@
 
   <!-- main css file -->
   <link rel="stylesheet" href="css/style.css">
-  <title> techida | IT Solutions & Business Services HTML template </title>
+  <title> О нас - Разработка сайтов, seo продвижение, настройка рекламы | MediaStar.by </title>
 </head>
 
 <body class="home-1">
@@ -78,7 +79,7 @@
   <section class="breadcrumbs py-4" data-aos="fade-up" data-aos-delay="100">
     <div class="container">
       <ol>
-        <li><a href="index.html">Главная</a></li>
+        <li><a href="index">Главная</a></li>
         <li>контакты</li>
       </ol>
       <h2 class="title">Контакты</h2>
@@ -248,86 +249,7 @@
 
 
   <!-- ============== Start Footer section ========== -->
-  <div class="footer">
-    <div class="container">
-      <div class="row justify-content-center align-items-center g-4">
-        <div class="col-12 col-lg-3 col-md-6 mx-auto my-4">
-          <div class="box">
-            <a href="#" class="logo "><img class="my-2" src="images/logo/logo.png" alt=""></a>
-            <p>Lorem ipsum dolor sit amet
-              aspernatur exercitationem fugiat.</p>
-            <h4 class="my-2">
-              follow us
-            </h4>
-            <div class="social d-flex gap-2">
-              <div class="icon"><i class="bi bi-facebook"></i></div>
-              <div class="icon"><i class="bi bi-instagram"></i></div>
-              <div class="icon"><i class="bi bi-twitter-x "></i></div>
-              <div class="icon"><i class="bi bi-youtube"></i></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
-          <h4>site map</h4>
-          <ul class="d-flex flex-column gap-3">
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="index.html">home</a>
-            </li>
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
-                href="about.html">about</a></li>
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
-                href="services.html">services</a></li>
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
-                href="contact.html">contact</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
-          <h4>follow us</h4>
-          <ul class="d-flex flex-column gap-3">
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">facebook</a>
-            </li>
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">instagram</a>
-            </li>
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">linkedin</a></li>
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">x</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
-          <h4>our services</h4>
-          <ul class="d-flex flex-column gap-3">
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">digital
-                marketing</a>
-            </li>
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">web
-                developement</a>
-            </li>
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">cyber
-                security</a></li>
-            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">graphic
-                design</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="copyrights ">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6 d-flex justify-content-start">
-            <p class="creadits">
-              &copy; 2024
-              Created by: <a href="#">erramix</a>
-            </p>
-          </div>
-          <div class="col-12 col-md-6 d-flex justify-content-end">
-            <div>
-              <a href="terms-of-use.html">Terms of Use </a>
-              | <a href="privacy-policy.html">Privacy Policy</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div id="footer"></div>
   <!-- ============== end Footer section ========== -->
 
   <script>
@@ -350,7 +272,7 @@
 
       // ВАЖНО: пути абсолютные от корня, чтобы работало в подпапках
       include('#header', ROOT + 'partials/header.html?v=' + Date.now());
-
+      include('#footer', ROOT + 'partials/footer.html?v=' + Date.now());
     });
   </script>
 
